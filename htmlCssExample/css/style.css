@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/b_body.jpg");
+}
+
+.main {
+  width: 1200px;
+  height: 110%;
+  min-height: 100%;
+  margin: 0 auto;
+  background-image: url("../img/b_body2.jpg");
+}
+
+.contain {
+  width: 120%;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  background-image: url("../img/b_coffee.jpg");
+  display: table;
+}
+
+.topImage {
+  width: 1100px;
+  height: 5px;
+  position: relative;
+  background-image: url("../img/menu_line.png");
+  margin-left: 60px;
+}
+
+.menu {
+  height: 50px;
+  weight: 100px;
+  border-image: url("../img/b_coffee.jpg");
+  padding-top: 15px;
+}
+
+.menu ul li {
+  padding-buttom: 10px;
+  margin-left: 80px;
+  display: inline;
+  list-style-type: none;
+  width: 170px;
+
+}
+
+.logo {
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  margin-left: 132px;
+}
+
+.slide {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  background: url("../img/b_thumbs.png") no-repeat;
+  margin-top: 150px;
+  margin-left: 140px;
+  padding: 21px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.content {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  margin-left: 100px;
+  padding: 21px;
+  display: flex;
+}
+
+.design {
+  width: 512px;
+  margin-right: 20px;
+  margin-left: 45px;
+  float: left;
+  display: inline;
+  align-items: center;
+  padding-bottom: inherit;
+}
+
+.design p {
+  margin-top: 5px;
+  font: 30px 'Droid Sans';
+  margin-bottom: 30px;
+  margin-left: 4px;
+}
+
+.headLine {
+  font: 18px/18px 'Droid Sans', Arial, sans-serif;
+  color: #60a56e;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.design ul li {
+  padding-left: 15px;
+  margin-bottom: 5px;
+  font: 15px/18px 'Droid Sans', Arial, sans-serif
+}
+
+.servDesign {
+  list-style-image: url("../img/bubble2.png");
+}
+
+.service .ul li {
+  display: list-item;
+  /*text-align: -webkit-match-parent;*/
+  text-align: center;
+}
+
+.service p2 {
+  width: 100px;
+  height: 20px;
+  font: 18px/18px 'Droid Sans', Arial, sans-serif;
+  color: #60a56e;
+  font-weight: bold;
+  margin: 7px;
+}
+
+.footer {
+  width: 1200px;
+  height: 1%;
+  min-height: 20%;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+}
+
+.footer p {
+  margin-top: auto;
+  color: #9ea2a2;
+  font: 15px 'Droid Sans',
+  Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+.footImg {
+  text-align: center;
+  float: left;
+  padding-left: 600px;
+}
+
+.aboutMe {
+  padding-left: 5px;
+  width: 520px;
+  float: right;
+  clear: both;
+}
+
+․design2 {
+  width: 512px;
+  border: black 1px solid;
+  display: flex;
+}
+
+.designExperience1 {
+  width: 240px;
+  float: left;
+  clear: both;
+}
+
+.designExperience2 {
+  width: 240px;
+  float: right;
+  clear: both;
+}
+
+.wrapper {
+  width: 1200px;
+  position: relative;
+  background: url("../img/b_spacer_line.gif") repeat-y;
+  padding-top: 60%;
+}
+
+.contentPan {
+  width: 1100px;
+  position: relative;
+  margin-left: 26px;
+  background: url("../img/b_content_pages.png") repeat-x;
+  padding-top: 21px;
+  clear: both;
+}
+
+.folio {
+  height: 700px;
+  width: 260px;
+  margin: 20px 17px;
+  float: left;
+  display: inline;
+}
+
+.gallery {
+  width: 560px;
+  height: 700px;
+  margin: 11px 40px;
+  float: left;
+}
+
+.folio ul {
+  list-style-image: url("../img/bubble2.png");
+}
+
+.folio ul {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font: 15px/18px 'Droid Sans', Arial, sans-serif;
+  list-style-image: url("../img/bubble2.png");
+}
+
+.headColor {
+  font: 20px/18px 'Droid Sans', Arial, sans-serif;
+  color: #413f3f;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.folio p {
+  text-align: center;
+  font: 15px 'Droid Sans';
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+.folio ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.gallery a {
+  font: 14px/16px 'Droid Sans', Arial, sans-serif;
+  color: #1a516b;
+  text-decoration: underline;
+}
+
+.gallery p2 {
+  text-align: left;
+  font: 15px 'Droid Sans';
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+.service {
+  width: 1200px;
+  margin-right: 20px;
+  margin-left: 45px;
+  float: left;
+  display: inline;
+  align-items: center;
+  padding-bottom: inherit;
+}
+
+.servDesign {
+  width: 265px;
+  margin: 0;
+  float: left;
+}
+
+.servDesign ul {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font: 15px/18px 'Droid Sans', Arial, sans-serif;
+  list-style-image: url("../img/bubble2.png");
+}
+
+.servDesign ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.concatHeadline{
+  font: 20px/50px 'Droid Sans', Arial, sans-serif;
+  color: #60a56e;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.headLine2{
+ margin-bottom: 20px;
+
+}
+.concatHeadline span {
+  color: #d8892d;
+  font-weight: bold;
+}
+
+.contactDesign{
+  margin-top: 5px;
+  font: 20px 'Droid Sans';
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+.phoneContent p{
+  width: 300px;
+  margin: 0 0 0 5px;
+}
+
+.drop{
+  width: 1200px;
+  margin-right: 20px;
+  margin-left: 45px;
+  float: left;
+  display: inline;
+  align-items: center;
+  padding-bottom: inherit;
+}
+
+.dropDesign{
+  width: 265px;
+  margin: 0;
+  float: left;
+}
+
+.input{
+  width: 500px;
+  height: 15px;
+  background: url("../img/b_input1.png") no-repeat;
+  padding: 15px 15px;
+  font: 14px/16px 'Droid Sans',Arial,sans-serif;
+  color: #103140;
+  border: none;
+  float: left;
+  margin-right: 50px
+}
+
+.input2{
+  width: 700px;
+  height: 20px;
+  background: url("../img/b_input2.png") no-repeat;
+  padding: 15px 15px;
+  font: 14px/16px 'Droid Sans',Arial,sans-serif;
+  color: #103140;
+  text-transform: uppercase;
+  border: none;
+  float: left;
+  margin-right: 21px
+}
